@@ -1,13 +1,12 @@
-# Elabore um programa que calcule o valor
-# a ser pago por um produto, considerando o seu
-# preço normal e condição de pagamento:
-# – à vista dinheiro/cheque: 10% de desconto
-# – à vista no cartão: 5% de desconto
-# – em até 2x no cartão: preço formal
-# – 3x ou mais no cartão: 20% de juros
+# It calcultates the price to be paid for a produt considering its regular price and payment condition:
+# Cash: 10% discount
+# Debit Card: 5% discount
+# Card 2 installments: normal price
+# Card 3 installments: 20% interest
 
-print('{:=^40}'.format(' LOJAS SYLECA '))
-price = float(input('Preço das compras: R$ '))
+
+print('{:=^40}'.format(' SYLECA STORE '))
+price = float(input('Preço total dos produtos: R$ '))
 print('''FORMAS DE PAGAMENTO
 [1] à vista dinheiro/cheque
 [2] à vista cartão
