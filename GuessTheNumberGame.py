@@ -1,8 +1,7 @@
-#Melhore o jogo do DESAFIO 28 onde o
-# computador vai “pensar” em um número entre
-# 0 e 10. Só que agora o jogador vai tentar adivinhar
-# até acertar, mostrando no final quantos palpites
-# foram necessários para vencer.
+# Its a guess the number game where the computer 'thinks' about a number between 0 and 10 and the player
+# try to guess the number, it also gives a tip to the player saying if the number chose by the computer
+# is higher or lower than what was put by the player
+# at the end of the game it shows how many tries were necessary to win
 
 from random import randint
 computer = randint(0, 10)
