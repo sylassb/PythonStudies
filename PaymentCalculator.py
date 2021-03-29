@@ -1,8 +1,8 @@
-# It calcultates the price to be paid for a produt considering its regular price and payment condition:
+# It calculates the price to be paid for a product considering its regular price and payment condition:
 # Cash: 10% discount
 # Debit Card: 5% discount
-# Card 2 installments: normal price
-# Card 3 installments: 20% interest
+# Credit Card 2 installments: regular price
+# Credit Card 3 installments: 20% interest
 
 
 print('{:=^40}'.format(' SYLECA STORE '))
