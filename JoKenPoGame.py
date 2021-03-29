@@ -1,5 +1,4 @@
-#: Crie um programa que faça o computador
-# jogar Jokenpô com você.
+#JoKenPo Game
 
 from random import randint
 from time import sleep
@@ -17,8 +16,8 @@ sleep(1)
 print('PÔ')
 sleep(1)
 print('-=' * 12)
-print(f'Computer played {itens[computer]}')
-print(f'Player played {itens[player]}')
+print(f'Computer move {itens[computer]}')
+print(f'Player move {itens[player]}')
 print('-=' * 12)
 if computer == 0: #STONE
     if player == 0:
@@ -28,7 +27,7 @@ if computer == 0: #STONE
     elif player == 2:
         print('LOSE')
     else:
-        print('PLAY NOT VALID!')
+        print('INVALID PLAY!')
 elif computer == 1: # PAPER
     if player == 0:
         print('LOSE')
@@ -37,7 +36,7 @@ elif computer == 1: # PAPER
     elif player == 2:
         print('WON')
     else:
-        print('Play not valid')
+        print('INVALID PLAY')
 elif computer == 2: # SCISSORS
     if player == 0:
         print('WON')
@@ -46,6 +45,6 @@ elif computer == 2: # SCISSORS
     elif player == 2:
         print('DRAW')
     else:
-        print('Play not valid')
+        print('INVALID PLAY')
 
 
