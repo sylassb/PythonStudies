@@ -1,14 +1,16 @@
-cows = [100, 101, 102, 103, 104, 105]
-milkedCow = {100: 'Ordenhada', 101: 'Não Ordenhada', 102: 'Ordenhada', 103: 'Ordenhada', 104: 'Ordenhada', 105: 'Ordenhada'}
+# University project of a TechFarm where I should use binary search to find cows in a specific list and know if it was milked or not and also if it is on the list: 
 
-searchCow = int(input('Digite o número da vaca que você quer encontrar: '))
+cows = [100, 101, 102, 103, 104, 105]
+milkedCow = {100: 'Milked', 101: 'Not Milked', 102: 'Milked', 103: 'Milked', 104: 'Milked', 105: 'Milked'}
+
+searchCow = int(input('Type the number of the cow you want to find: '))
 
 def buscarVaca(list, item):
     prim = 0
     ult = len(list) - 1
     found = False
-    resultFalse = f'A vaca {item} não foi encontrada'
-    resultTrue = f' A vaca {item} foi encontrada'
+    resultFalse = f'The cow {item} was not found'
+    resultTrue = f' The cow {item} was found'
 
     while prim <= ult and not found:
         meio = (prim + ult) // 2
