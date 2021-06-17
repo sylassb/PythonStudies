@@ -1,2 +1,2 @@
-# pythonstudies
+# PythonStudies
 Some exercises in Python
