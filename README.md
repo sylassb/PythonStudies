@@ -1,2 +1,2 @@
-# PythonStudies
+# Python
 Some exercises in Python
